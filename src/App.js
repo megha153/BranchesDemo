@@ -1,8 +1,16 @@
+import Attendence from "./Attendence";
+import Classes from "./Classes";
 
 
 function App() {
   return (
-    <h1>Branches</h1>
+    <>
+    <h1>
+      Kodnest App
+      <Classes />
+      <Attendence />
+      </h1>
+      </>
   );
 }
 
